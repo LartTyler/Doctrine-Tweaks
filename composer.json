@@ -1,0 +1,14 @@
+{
+	"name": "gravitas/doctrine-tweaks",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix",
+			"email": "development@gravitationalmarketing.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Gravitas\\": "src/Gravitas"
+		}
+	}
+}
