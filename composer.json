@@ -1,10 +1,10 @@
 {
-	"name": "gravitas/doctrine-tweaks",
+	"name": "dbstudios/doctrine-tweaks",
 	"description": "A collection of tweaks and additions to Doctrine",
 	"authors": [
 		{
 			"name": "Tyler Lartonoix",
-			"email": "development@gravitationalmarketing.com"
+			"email": "overlordcodemonkey@live.com"
 		}
 	],
 	"type": "library",
