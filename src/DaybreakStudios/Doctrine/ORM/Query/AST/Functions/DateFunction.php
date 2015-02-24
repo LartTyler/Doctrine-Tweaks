@@ -1,5 +1,5 @@
 <?php
-	namespace Gravitas\Common\Doctrine\ORM\Query\AST\Functions;
+	namespace DaybreakStudios\Doctrine\ORM\Query\AST\Functions;
 
 	use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 	use Doctrine\ORM\Query\Lexer;

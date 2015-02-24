@@ -1,5 +1,5 @@
 <?php
-	namespace Gravitas\Common\Doctrine\ORM;
+	namespace DaybreakStudios\Doctrine\ORM;
 
 	use \InvalidArgumentException;
 

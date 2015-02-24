@@ -1,14 +1,14 @@
 <?php
-	namespace Gravitas\Common\Doctrine\ORM\Query\AST\Functions;
+	namespace DaybreakStudios\Doctrine\ORM\Query\AST\Functions;
 
 	use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 	use Doctrine\ORM\Query\Lexer;
 	use Doctrine\ORM\Query\Parser;
 	use Doctrine\ORM\Query\SqlWalker;
 
-	class UtcDateFunction extends FunctionNode {
+	class UtcTimestampFunction extends FunctionNode {
 		public function getSql(SqlWalker $walker) {
-			return 'UTC_DATE()';
+			return 'UTC_TIMESTAMP()';
 		}
 
 		public function parse(Parser $parser) {

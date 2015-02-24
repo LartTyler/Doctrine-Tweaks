@@ -10,7 +10,7 @@
 	"type": "library",
 	"autoload": {
 		"psr-4": {
-			"Gravitas\\": "src/Gravitas"
+			"DaybreakStudios\\": "src/DaybreakStudios"
 		}
 	}
 }
