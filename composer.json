@@ -1,11 +1,13 @@
 {
 	"name": "gravitas/doctrine-tweaks",
+	"description": "A collection of tweaks and additions to Doctrine",
 	"authors": [
 		{
 			"name": "Tyler Lartonoix",
 			"email": "development@gravitationalmarketing.com"
 		}
 	],
+	"type": "library",
 	"autoload": {
 		"psr-4": {
 			"Gravitas\\": "src/Gravitas"
