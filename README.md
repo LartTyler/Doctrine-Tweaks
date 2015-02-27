@@ -7,7 +7,7 @@ but **should** be usable anywhere.
 
 # Usage: ChainableEntityManager
 
-This package includes a file named `Gravitas\Common\Doctrine\ORM\Query\AST\ChainableEntityManager` that allows a few
+This package includes a file named `DaybreakStudios\Doctrine\ORM\ChainableEntityManager` that allows a few
 common methods to be chained together. For example:
 
 ```
