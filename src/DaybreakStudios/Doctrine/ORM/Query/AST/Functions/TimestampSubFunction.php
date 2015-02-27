@@ -12,7 +12,7 @@
 		private $expr;
 
 		public function getSql(SqlWalker $walker) {
-			return sprintf('TIMESTAMPADD(%s, -%d, %s)', strtoupper($this->unit), $this->interval->dispatch($walker), $this->expr->dispatch($walker));
+			return sprintf('TIMESTAMPADD(%s, -%s, %s)', strtoupper($this->unit), $this->interval->dispatch($walker), $this->expr->dispatch($walker));
 		}
 
 		public function parse(Parser $parser) {
